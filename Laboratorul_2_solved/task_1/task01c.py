@@ -9,9 +9,9 @@ def task1c(words):
     palindromes = []
 
     ################### TO DO #########################
-    # filtram words folosind functia lambda pe care am scris-o ca parametru.
-    # spre deosebire de map, care doar aplica functia pe elementele listei, fiter
-        # ne pastreaza elementele ce satisfac functia transmisa ca parametru.
+    # filtram words folosind functia lambda pe care am scris-o ca parametru
+    # spre deosebire de map, care doar aplica functia pe elementele listei, filter
+        # ne pastreaza elementele ce satisfac functia transmisa ca parametru
     palindromes = filter(lambda cuv: cuv == cuv[::-1], words)
     ###################################################
     
